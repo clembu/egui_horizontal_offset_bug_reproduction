@@ -1,0 +1,10 @@
+[package]
+name = "egui_hor_offset_repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.30.0"
+
+[patch.crates-io]
+eframe = { git = "https://github.com/emilk/egui", branch = "master" }
