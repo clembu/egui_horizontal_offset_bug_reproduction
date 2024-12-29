@@ -18,6 +18,8 @@ The lists are aligned horizontally, as they are all the same size.
 ### Actual behaviour:
 The lists are vertically offset according to what appears to be some logarithmic function.
 
+![A screenshot of the bug behaviour](screenshots/actual_behaviour.png)
+
 ## Reproduction steps:
 1. Clone this repository
 2. Run the executable
