@@ -6,6 +6,7 @@ This repository is a minimal[^1] reproduction setup for a bug with [egui](https:
   It runs `egui` through `eframe`, which adds a lot of dependencies and hidden mechanisms, but makes the code part succint, and the actual reproduction steps simple.
 
 ## Bug description
+Corresponding Egui Issue: emilk/egui#5535
 
 ### Situation:
 We add a series of vertical layouts in a horizontal layout, each allocated to a certain width.
